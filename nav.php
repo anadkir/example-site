@@ -5,10 +5,10 @@
                 <a class="nav-link active" aria-current="page" href="index.php">Etusivu</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Linkki</a>
+                <a class="nav-link" href="not-found.php">Linkki</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Linkki</a>
+                <a class="nav-link" href="not-found.php">Linkki</a>
             </li>
         </ul>
     </div>
