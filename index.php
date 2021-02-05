@@ -3,7 +3,7 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-        <meta charset="utf8">
+        <meta charset="utf-8">
         <title>Example site</title>
         <style>
             body{
@@ -87,12 +87,12 @@
         <?php
             include "footer.php";
         ?>
+        <script>
+            let myCarousel = document.querySelector('#myCarousel')
+            let carousel = new bootstrap.Carousel(myCarousel, {
+                interval: 2000,
+                wrap: false
+            })
+        </script>
     </body>
-    <script>
-        let myCarousel = document.querySelector('#myCarousel')
-        let carousel = new bootstrap.Carousel(myCarousel, {
-            interval: 2000,
-            wrap: false
-        })
-    </script>
 </html>
